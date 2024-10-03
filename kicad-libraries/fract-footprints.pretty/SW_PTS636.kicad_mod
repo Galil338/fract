@@ -1,0 +1,116 @@
+(footprint "SW_PTS636"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "6mmx6mm push button")
+	(tags "button, tactile, 6mm")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(uuid "239bd0c1-7d24-40b1-8ecd-85f82d90c459")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_PTS636"
+		(at 0 -1.25 0)
+		(layer "F.Fab")
+		(uuid "3003fcaf-8293-4313-b0f3-229961f5a20b")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30d926cd-f4cd-470d-a486-f06c233c5b9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4d22d92-9d3a-4f0d-b09f-42b550dfdf37")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08154f64-d7ca-4795-b8ee-fb25f84a91e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2 -4.5)
+		(end 2 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "bffb61ff-51d3-47da-ab1e-b3a194c7b219")
+	)
+	(fp_rect
+		(start -1.75 -3)
+		(end 1.75 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2ab13e5d-5857-44d6-be0f-196d39b003e7")
+	)
+	(fp_rect
+		(start -0.75 -1.5)
+		(end 0.75 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "dd10bd59-fdbb-4a90-bd98-50fe18486306")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -3.2 270)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de318d54-9ecf-49a5-aa55-23b881ca3d37")
+	)
+	(pad "2" thru_hole circle
+		(at 0 3.2 270)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f1536c37-7639-4e11-bd04-69515425db56")
+	)
+)

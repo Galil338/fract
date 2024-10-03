@@ -1,0 +1,141 @@
+(footprint "JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
+	(tags "connector JST PH top entry")
+	(property "Reference" "REF**"
+		(at 0 3.25 0)
+		(layer "F.SilkS")
+		(uuid "1ebb419f-766d-4a4d-aa81-5536d36b7f00")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(at 0 9.05 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d499718-c05a-4f27-8659-03547a500275")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(at -1 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f7f73bb-37a3-4b56-8f91-44e7cb7a59eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b3ad140-c44f-48e6-aa8e-75c52bdf115d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9f5bf92-3506-48b7-ac8f-ecb02c4e0e18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 2.95 1.85)
+		(end -2.95 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74666c1e-3c82-439d-8a6d-ea46286c0c70")
+	)
+	(fp_rect
+		(start -3.2 0)
+		(end 3.2 14.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6eb47807-7663-48be-86af-0c7d3eace8de")
+	)
+	(fp_rect
+		(start -2.95 0.25)
+		(end 2.95 7.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "fad886d4-041c-4b62-9dcd-bf54af266d49")
+	)
+	(fp_rect
+		(start -0.5 3.6)
+		(end 0.5 7.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "198b0a60-6432-4ab8-8d8d-ab8d773b225a")
+	)
+	(pad "1" thru_hole circle
+		(at -1 1.6)
+		(size 1.35 1.35)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "54625faf-1c50-4810-9263-fbd854e727d8")
+	)
+	(pad "2" thru_hole circle
+		(at 1 1.6)
+		(size 1.35 1.35)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37f90c7f-ca9e-41cf-9917-88cb5f0eda65")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.wrl"
+		(offset
+			(xyz -1 -1.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
