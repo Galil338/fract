@@ -43,7 +43,7 @@ Choc v1 Keycaps |  | 52 | Use keycaps which fit 18mm x 17mm spacing
 M2 12mm screws | Screw all five PCBs together | 5 |
 M2 nuts | Hold the screws in place | 8 |
 2mm tall rubber bumpons | Raise board above desk surface and provide skid resitance | 6 |
-[Peel-a-way Sockets and Pins](https://ringerkeys.com/collections/modders-tools/products/peel-a-way-sockets) | socket dev board to PCB | 2 strips of 12 pins/sockets | May use other solution which sockets in under 4.8mm clearance.
+[Peel-a-way Sockets and Pins](https://ringerkeys.com/collections/modders-tools/products/peel-a-way-sockets) | socket dev board to PCB | 2 strips of 12 pins/sockets | May use other low profile sockets which give less than ~4.8 mm height.
 
 ## PCB manufacturing settings
 

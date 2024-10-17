@@ -355,6 +355,71 @@
 				)
 			)
 		)
+		(symbol "fract-components:Cutout"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "CUTOUT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Cutout_0_1"
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 5.08 0) (xy 0 -5.08) (xy -5.08 0) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "fract-components:D"
 			(pin_numbers hide)
 			(pin_names
@@ -1623,19 +1688,19 @@
 		)
 	)
 	(junction
-		(at 227.33 40.64)
+		(at 238.76 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02c27e9f-c872-4cac-b07e-1e0c5fbb6344")
 	)
 	(junction
-		(at 140.97 35.56)
+		(at 152.4 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "038d764a-e8f7-40d7-a7fe-c7ea5881e61e")
 	)
 	(junction
-		(at 208.28 40.64)
+		(at 219.71 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04529308-746a-4b28-9934-479220936125")
@@ -1647,55 +1712,43 @@
 		(uuid "0a9baf4e-1457-4af2-852c-8d869d42e9a0")
 	)
 	(junction
-		(at 227.33 55.88)
+		(at 133.35 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b3295a2-5eab-433c-b796-5a2f33e8ff8c")
+	)
+	(junction
+		(at 238.76 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10d23dda-5031-4a67-9c83-bee108302053")
 	)
 	(junction
-		(at 170.18 55.88)
+		(at 181.61 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a4ee02d-a325-4868-9312-c72d1182a771")
 	)
 	(junction
-		(at 133.35 71.12)
+		(at 123.19 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ab3ec86-69e6-47bb-b292-da94d182db8b")
+		(uuid "1aa8b366-9807-4007-8269-f035a5d3b11f")
 	)
 	(junction
-		(at 140.97 66.04)
+		(at 171.45 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1b4afa1c-6ed7-4e55-89a4-2576632ed910")
+		(uuid "260153d5-4fe4-4c79-8079-a5f9a58777c5")
 	)
 	(junction
-		(at 189.23 55.88)
+		(at 200.66 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26062c56-eff4-48ba-ac0a-fd8fa2a7e475")
 	)
 	(junction
-		(at 95.25 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26838594-aee3-4ec8-8ff0-2c5c4206fbdf")
-	)
-	(junction
-		(at 227.33 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ab647e7-0db5-44c2-92bc-bed53a2cf7ac")
-	)
-	(junction
-		(at 76.2 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e57bc2d-97c4-4829-b528-e0d1cbeebc76")
-	)
-	(junction
-		(at 189.23 40.64)
+		(at 200.66 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3226eb27-8dc0-42a4-832d-fbae93e4c83a")
@@ -1707,19 +1760,13 @@
 		(uuid "3250dc47-1d8f-406b-a5ec-97666e59f991")
 	)
 	(junction
-		(at 160.02 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "349003a3-b9a1-401f-aeee-a7f2e6490f6f")
-	)
-	(junction
 		(at 46.99 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35a9326d-7c3d-45f7-a46b-9d55e5b93257")
 	)
 	(junction
-		(at 198.12 50.8)
+		(at 209.55 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36dd82b7-55b8-4a46-953a-0d2756346a11")
@@ -1731,28 +1778,16 @@
 		(uuid "36fcdc88-b519-4b1a-8798-155abfbc86fe")
 	)
 	(junction
-		(at 208.28 71.12)
+		(at 219.71 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38019d21-09f4-46a6-a1e0-4b2bd8d685f4")
 	)
 	(junction
-		(at 208.28 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ada2ce2-39d2-46c0-8c9a-4680b435cca3")
-	)
-	(junction
-		(at 170.18 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3db6b986-2982-4a74-9feb-f2a9d77e2965")
-	)
-	(junction
 		(at 133.35 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41a66be6-b5b2-4f8c-b5ba-9fcf93f4df3b")
+		(uuid "3be5a104-7ad7-4d5a-913f-c5ac495487b9")
 	)
 	(junction
 		(at 199.39 119.38)
@@ -1761,7 +1796,7 @@
 		(uuid "43cdaf00-6b28-4fb1-b1fc-b213bc6459fa")
 	)
 	(junction
-		(at 170.18 71.12)
+		(at 181.61 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "470f7e38-9d6a-47e6-98ef-958aea0dd342")
@@ -1779,55 +1814,37 @@
 		(uuid "4b9d0b10-8a4a-4a80-a92d-e9898cdd4e2b")
 	)
 	(junction
-		(at 104.14 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ec63b8d-ffb8-44ad-a019-cac30b50c2b7")
-	)
-	(junction
-		(at 217.17 50.8)
+		(at 228.6 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ed1a0dd-1655-4e0e-a110-9807cbf0888d")
 	)
 	(junction
-		(at 189.23 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4eeee061-68ec-4a27-a0b4-0af5d3807b87")
-	)
-	(junction
-		(at 46.99 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50f78c2f-c201-484a-96a5-390368eead1d")
-	)
-	(junction
-		(at 151.13 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "536449fc-81b2-4cd1-a468-00aa616e02ba")
-	)
-	(junction
-		(at 208.28 55.88)
+		(at 219.71 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ef5b2c5-3b6a-4852-8ec5-01d60605c655")
 	)
 	(junction
-		(at 198.12 35.56)
+		(at 209.55 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61893105-5fdd-4073-83a0-0b8eae702097")
 	)
 	(junction
-		(at 160.02 50.8)
+		(at 171.45 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "659b76c2-b96f-43ef-bf3a-c5efb115649f")
 	)
 	(junction
-		(at 140.97 50.8)
+		(at 133.35 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71bb19a2-77af-4bc9-9cb7-a3fdcc0dc701")
+	)
+	(junction
+		(at 152.4 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a08c540-b222-4c81-8d21-3d127b501ea1")
@@ -1839,19 +1856,13 @@
 		(uuid "8098d9a2-6e06-43ed-b305-1d2fbc4d4377")
 	)
 	(junction
-		(at 151.13 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82161c6c-7c73-4bd9-aeb3-0dd8f9f7e180")
-	)
-	(junction
 		(at 76.2 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83fbd40d-d2e7-4e75-9f4c-8aa5a3473911")
 	)
 	(junction
-		(at 189.23 71.12)
+		(at 200.66 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86b065b6-2ee7-4f37-9680-35d3c827f964")
@@ -1863,13 +1874,7 @@
 		(uuid "88aeda92-ed78-4705-9d26-925860679a67")
 	)
 	(junction
-		(at 179.07 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89720082-0fa1-45c2-bb27-ccfd8f3557fd")
-	)
-	(junction
-		(at 179.07 50.8)
+		(at 190.5 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9791bc62-09b4-4689-9962-7465cfe948c8")
@@ -1881,19 +1886,13 @@
 		(uuid "97d3d6c3-8e23-43f7-a12c-f2fd68ac01bd")
 	)
 	(junction
-		(at 85.09 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c03e2c5-310c-4717-aa1b-b063dc9a161f")
-	)
-	(junction
-		(at 170.18 40.64)
+		(at 181.61 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2833f53-987b-445b-b0bc-6b8432105fe4")
 	)
 	(junction
-		(at 179.07 35.56)
+		(at 190.5 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4141f26-a169-4ab4-addf-fffdf4271b33")
@@ -1903,12 +1902,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aeeac09c-4ca6-4df6-87be-ca0a1258a501")
-	)
-	(junction
-		(at 114.3 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b55d4302-b677-4c4a-8ada-48523ea8582c")
 	)
 	(junction
 		(at 104.14 50.8)
@@ -1923,34 +1916,34 @@
 		(uuid "c52ff86d-0b60-4c81-896c-1640254de7be")
 	)
 	(junction
-		(at 227.33 71.12)
+		(at 162.56 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce5bff63-33fe-4f98-9fb7-0d7978db353b")
+	)
+	(junction
+		(at 238.76 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1c4ebde-fe74-4f13-a31f-bf4aca6b9a09")
 	)
 	(junction
-		(at 133.35 86.36)
+		(at 181.61 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2d21841-833a-4d37-96b2-494ee3b9f49e")
+		(uuid "dabba6cc-02e0-4392-904d-7132e0c1fde1")
 	)
 	(junction
-		(at 217.17 35.56)
+		(at 228.6 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddcf38ce-cd5e-4789-b047-e9adbbe4575e")
 	)
 	(junction
-		(at 217.17 66.04)
+		(at 152.4 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dddacfcb-af66-4c2c-9a42-2ae11653377f")
-	)
-	(junction
-		(at 151.13 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de73b7f2-32c3-4115-86a9-3aa2887a3f2d")
+		(uuid "e2f274d0-fff1-491d-a07b-43c8e0f8e3b2")
 	)
 	(junction
 		(at 114.3 71.12)
@@ -1971,31 +1964,19 @@
 		(uuid "e627059a-d966-41c5-ba0e-09451d5bcd15")
 	)
 	(junction
-		(at 133.35 55.88)
+		(at 133.35 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eb23124c-80bd-44dc-a3e9-8d0cf22d8b77")
+		(uuid "e75e40e7-b80b-4b1f-aa50-bbf5b796d2bf")
 	)
 	(junction
-		(at 123.19 66.04)
+		(at 104.14 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ec5cfa82-d024-4a42-96c3-7d360505c757")
+		(uuid "f6429797-c207-4220-93a4-0cb741ce24f1")
 	)
 	(junction
-		(at 198.12 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec656fad-b3ab-46cf-900e-add0132cf6aa")
-	)
-	(junction
-		(at 151.13 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efd3e63e-18e9-4724-95c5-e12acebc911a")
-	)
-	(junction
-		(at 160.02 35.56)
+		(at 171.45 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9f5da79-6ce8-4dc0-8c38-56c9064f00cd")
@@ -2013,55 +1994,77 @@
 		(uuid "fb9548c0-17db-4e32-9d02-22117a8c9194")
 	)
 	(junction
-		(at 66.04 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc28eb0e-80a6-4a0f-8229-c5cdd46f9d78")
-	)
-	(junction
 		(at 85.09 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "feee28d7-895e-4e8c-b23c-18d71dc35547")
 	)
 	(no_connect
-		(at 135.89 121.92)
+		(at 36.83 139.7)
+		(uuid "0ac21cdc-acb6-42d5-aeeb-d398f9708187")
+	)
+	(no_connect
+		(at 135.89 134.62)
 		(uuid "14426776-6d65-47e4-a80a-389700194a30")
 	)
 	(no_connect
-		(at 210.82 127)
-		(uuid "620a2185-2250-41f4-a6e3-0ef1dc987e5c")
+		(at 246.38 130.81)
+		(uuid "17cc2f51-990f-4167-8a78-e0dc111f8772")
 	)
 	(no_connect
-		(at 210.82 123.19)
-		(uuid "81bd0096-2f9c-4aee-bfdb-577296568a99")
+		(at 246.38 142.24)
+		(uuid "192bfac9-bc2c-4f9f-8a18-cb3022ccd9f3")
 	)
 	(no_connect
-		(at 78.74 118.11)
+		(at 246.38 134.62)
+		(uuid "3ee0b84d-d801-4963-84c4-db6b8c50eaf1")
+	)
+	(no_connect
+		(at 92.71 139.7)
+		(uuid "4ace86e9-c69f-4072-8133-d5040cf0fc56")
+	)
+	(no_connect
+		(at 50.8 139.7)
+		(uuid "5a56946b-bb8a-42ee-8206-91e415603196")
+	)
+	(no_connect
+		(at 246.38 127)
+		(uuid "5eb6f2c8-84a7-458e-9d8e-2d93bf88d5ff")
+	)
+	(no_connect
+		(at 64.77 139.7)
+		(uuid "7b3acee5-a8b0-40ae-aaec-88e9933cf528")
+	)
+	(no_connect
+		(at 246.38 123.19)
+		(uuid "7e65d247-3a46-4ea5-a658-9f94c5b56609")
+	)
+	(no_connect
+		(at 78.74 130.81)
 		(uuid "89a8e170-a222-41c0-b545-c9f4c5604011")
 	)
 	(no_connect
-		(at 210.82 134.62)
-		(uuid "93d8a16f-7c5c-4836-91df-de452a98a0f5")
+		(at 78.74 139.7)
+		(uuid "b450804e-e71a-4f51-8202-755678368969")
 	)
 	(no_connect
-		(at 92.71 118.11)
+		(at 92.71 130.81)
 		(uuid "d0f8d9c1-d053-45d6-90e4-c0324dab39fc")
 	)
 	(no_connect
-		(at 64.77 118.11)
+		(at 64.77 130.81)
 		(uuid "d3e133b7-2c84-4206-a2b1-e693cb57fe56")
 	)
 	(no_connect
-		(at 36.83 118.11)
+		(at 36.83 130.81)
 		(uuid "da481376-0e49-44d3-91b8-aaa39b869dd1")
 	)
 	(no_connect
-		(at 210.82 130.81)
-		(uuid "f40b5e47-9747-4681-8fa5-40ee007eac59")
+		(at 246.38 138.43)
+		(uuid "df455a9c-7f2f-469d-a8c9-f2b329a7f550")
 	)
 	(no_connect
-		(at 50.8 118.11)
+		(at 50.8 130.81)
 		(uuid "f988d6ea-11c5-4837-b1d1-5c292ded50c6")
 	)
 	(wire
@@ -2076,17 +2079,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 66.04) (xy 123.19 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08751e92-73e8-4a76-8049-38c1755546df")
-	)
-	(wire
-		(pts
-			(xy 179.07 50.8) (xy 179.07 66.04)
+			(xy 190.5 50.8) (xy 190.5 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2096,7 +2089,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 25.4) (xy 179.07 35.56)
+			(xy 190.5 25.4) (xy 190.5 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2106,7 +2099,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 139.7) (xy 124.46 140.97)
+			(xy 124.46 152.4) (xy 124.46 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2126,17 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 66.04) (xy 160.02 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "169712b8-f945-4222-b0e1-96ae8f440d5b")
-	)
-	(wire
-		(pts
-			(xy 170.18 71.12) (xy 189.23 71.12)
+			(xy 181.61 71.12) (xy 200.66 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2146,7 +2129,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 50.8) (xy 217.17 66.04)
+			(xy 228.6 50.8) (xy 228.6 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2176,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 55.88) (xy 234.95 55.88)
+			(xy 238.76 55.88) (xy 246.38 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2216,17 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 66.04) (xy 217.17 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c41c5f4-88dc-433d-88d0-822242cb627e")
-	)
-	(wire
-		(pts
-			(xy 95.25 86.36) (xy 114.3 86.36)
+			(xy 162.56 86.36) (xy 181.61 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2236,7 +2209,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 25.4) (xy 198.12 35.56)
+			(xy 209.55 25.4) (xy 209.55 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2256,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 35.56) (xy 140.97 50.8)
+			(xy 152.4 35.56) (xy 152.4 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2266,7 +2239,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 40.64) (xy 234.95 40.64)
+			(xy 238.76 40.64) (xy 246.38 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2276,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 139.7) (xy 135.89 139.7)
+			(xy 137.16 152.4) (xy 135.89 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2286,7 +2259,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 139.7) (xy 124.46 139.7)
+			(xy 125.73 152.4) (xy 124.46 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2296,7 +2269,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 55.88) (xy 227.33 55.88)
+			(xy 104.14 66.04) (xy 104.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b135db-23a6-477d-9923-088c863e7d50")
+	)
+	(wire
+		(pts
+			(xy 219.71 55.88) (xy 238.76 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2306,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 55.88) (xy 189.23 55.88)
+			(xy 181.61 55.88) (xy 200.66 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2336,7 +2319,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 50.8) (xy 140.97 66.04)
+			(xy 152.4 50.8) (xy 152.4 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2346,33 +2329,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 40.64) (xy 227.33 40.64)
+			(xy 219.71 40.64) (xy 238.76 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4d30a1b9-dfb9-40d3-a284-7acc00186b46")
-	)
-	(wire
-		(pts
-			(xy 170.18 86.36) (xy 189.23 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f5bada8-d9ef-452b-ae96-430a9e7f47f4")
-	)
-	(wire
-		(pts
-			(xy 76.2 86.36) (xy 95.25 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "551ea9a5-6cf6-4448-9f4d-4ade1fa8a42d")
 	)
 	(wire
 		(pts
@@ -2406,7 +2369,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 55.88) (xy 208.28 55.88)
+			(xy 200.66 55.88) (xy 219.71 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2416,27 +2379,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 66.04) (xy 179.07 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e25fe27-0a62-4088-ad33-e9971d29f04b")
-	)
-	(wire
-		(pts
-			(xy 198.12 66.04) (xy 198.12 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61586de1-824a-401f-9f92-4088d7b4b233")
-	)
-	(wire
-		(pts
-			(xy 227.33 71.12) (xy 234.95 71.12)
+			(xy 238.76 71.12) (xy 246.38 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2446,7 +2389,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 40.64) (xy 189.23 40.64)
+			(xy 181.61 40.64) (xy 200.66 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +2409,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 25.4) (xy 160.02 35.56)
+			(xy 171.45 25.4) (xy 171.45 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2476,7 +2419,27 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 40.64) (xy 208.28 40.64)
+			(xy 133.35 86.36) (xy 162.56 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb7e7a5-68b3-41be-a741-16d68a1203d4")
+	)
+	(wire
+		(pts
+			(xy 171.45 66.04) (xy 171.45 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c64094-9c3d-4074-80fe-c50f83299fa9")
+	)
+	(wire
+		(pts
+			(xy 200.66 40.64) (xy 219.71 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2496,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 55.88) (xy 170.18 55.88)
+			(xy 162.56 55.88) (xy 181.61 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2506,23 +2469,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 40.64) (xy 151.13 40.64)
+			(xy 133.35 40.64) (xy 140.97 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e355ef9-809b-44f2-89c1-bd824d303cb3")
-	)
-	(wire
-		(pts
-			(xy 208.28 86.36) (xy 227.33 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ead0061-e207-4c94-a8d4-0cfa71726543")
+		(uuid "7ed01436-aaa2-461b-b510-c9b37885a417")
 	)
 	(wire
 		(pts
@@ -2546,7 +2499,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 25.4) (xy 217.17 35.56)
+			(xy 228.6 25.4) (xy 228.6 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2556,27 +2509,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 86.36) (xy 133.35 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8771991c-2387-4f44-9421-b4dd99ccfad7")
-	)
-	(wire
-		(pts
-			(xy 85.09 66.04) (xy 85.09 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88d7ea14-4916-4c06-a7ef-c215032cae39")
-	)
-	(wire
-		(pts
-			(xy 179.07 35.56) (xy 179.07 50.8)
+			(xy 190.5 35.56) (xy 190.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2586,23 +2519,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 50.8) (xy 198.12 66.04)
+			(xy 209.55 50.8) (xy 209.55 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "89822178-bc34-4bef-bd28-1a2a21aa7801")
-	)
-	(wire
-		(pts
-			(xy 151.13 86.36) (xy 170.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91bc7c1c-24b8-47a9-8c12-021628549238")
 	)
 	(wire
 		(pts
@@ -2616,7 +2539,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 71.12) (xy 227.33 71.12)
+			(xy 219.71 71.12) (xy 238.76 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2626,7 +2549,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 35.56) (xy 198.12 50.8)
+			(xy 209.55 35.56) (xy 209.55 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 35.56) (xy 160.02 50.8)
+			(xy 171.45 35.56) (xy 171.45 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2696,7 +2619,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 71.12) (xy 170.18 71.12)
+			(xy 162.56 71.12) (xy 181.61 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2716,7 +2639,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 40.64) (xy 170.18 40.64)
+			(xy 162.56 40.64) (xy 181.61 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2756,7 +2679,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 35.56) (xy 217.17 50.8)
+			(xy 228.6 35.56) (xy 228.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2766,7 +2689,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 71.12) (xy 208.28 71.12)
+			(xy 200.66 71.12) (xy 219.71 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2786,17 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 86.36) (xy 208.28 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3d6c02a-ff86-40a2-9a1e-93226a2bb925")
-	)
-	(wire
-		(pts
-			(xy 57.15 86.36) (xy 76.2 86.36)
+			(xy 114.3 86.36) (xy 133.35 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2806,33 +2719,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 66.04) (xy 66.04 81.28)
+			(xy 152.4 66.04) (xy 152.4 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8e77a6b-e4f9-4245-bfa6-10f247f06a4d")
+		(uuid "c611a469-9f18-4c75-acbb-6aed65a3b4ed")
 	)
 	(wire
 		(pts
-			(xy 133.35 86.36) (xy 151.13 86.36)
+			(xy 181.61 86.36) (xy 246.38 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb2fff3f-7afc-48ab-b018-e6c0e0b41a71")
-	)
-	(wire
-		(pts
-			(xy 104.14 66.04) (xy 104.14 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc917332-a7f6-49ad-98c2-a506b5ebb361")
+		(uuid "c78945ce-83bf-4b99-9c2f-13c575dea3bf")
 	)
 	(wire
 		(pts
@@ -2846,27 +2749,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 86.36) (xy 234.95 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfefbcc3-ab20-4330-bd0b-b431abd6bd8e")
-	)
-	(wire
-		(pts
-			(xy 133.35 55.88) (xy 151.13 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d22fd7be-cb61-4ce7-9e0e-0edf77adb548")
-	)
-	(wire
-		(pts
-			(xy 160.02 50.8) (xy 160.02 66.04)
+			(xy 171.45 50.8) (xy 171.45 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2886,23 +2769,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 71.12) (xy 151.13 71.12)
+			(xy 133.35 55.88) (xy 140.97 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db5e7b1a-8425-4d97-9ce5-18c9a124c087")
-	)
-	(wire
-		(pts
-			(xy 140.97 66.04) (xy 140.97 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de158132-1cbb-4505-9804-639e77e19772")
+		(uuid "dd73ecc7-4745-46bd-addc-f60a26a7ff8f")
 	)
 	(wire
 		(pts
@@ -2916,13 +2789,23 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 66.04) (xy 46.99 81.28)
+			(xy 133.35 71.12) (xy 140.97 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1447012-4909-4d3e-9936-6b26bafcfd69")
+		(uuid "e07914e9-1a4d-4bfd-adab-c90d2ba2aa64")
+	)
+	(wire
+		(pts
+			(xy 123.19 66.04) (xy 123.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29fa45b-1ed1-460a-9424-140a708b88be")
 	)
 	(wire
 		(pts
@@ -2936,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 25.4) (xy 140.97 35.56)
+			(xy 152.4 25.4) (xy 152.4 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2976,7 +2859,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 115.57) (xy 168.91 115.57)
+			(xy 158.75 128.27) (xy 168.91 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2994,28 +2877,6 @@
 		)
 		(uuid "fa84476e-52bd-4fef-88d1-2ed0d7e59801")
 	)
-	(global_label "COL2"
-		(shape input)
-		(at 246.38 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0168f61f-6f0b-4fcd-8a24-17da8be1425a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5491 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RESET"
 		(shape input)
 		(at 246.38 115.57 0)
@@ -3029,28 +2890,6 @@
 		(uuid "0179fe51-ff47-4360-847f-c421d73a47fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 254.4561 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL6"
-		(shape input)
-		(at 246.38 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "01f94731-5193-4c7b-b0f6-ec21c9facefe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5491 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,9 +2943,9 @@
 			)
 		)
 	)
-	(global_label "COL8"
+	(global_label "ROW7"
 		(shape input)
-		(at 246.38 123.19 0)
+		(at 246.38 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3114,9 +2953,9 @@
 			)
 			(justify left)
 		)
-		(uuid "0be99d14-384c-4424-87a5-16353a516807")
+		(uuid "27e55687-587d-469a-a112-90fde4d8a354")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5491 123.19 0)
+			(at 253.9724 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,29 +2967,7 @@
 	)
 	(global_label "ROW4"
 		(shape input)
-		(at 234.95 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "27e55687-587d-469a-a112-90fde4d8a354")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.5424 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW2"
-		(shape input)
-		(at 234.95 55.88 0)
+		(at 246.38 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3160,12 +2977,56 @@
 		)
 		(uuid "3432377f-036e-47c3-ac18-9cb7a9ab3efd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.5424 55.88 0)
+			(at 253.9724 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW5"
+		(shape input)
+		(at 140.97 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e08fc71-68df-4622-b07a-67836a607eef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.5624 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 210.82 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41336042-7ca9-49e3-aa21-0a3806706056")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.6509 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3214,9 +3075,9 @@
 			)
 		)
 	)
-	(global_label "ROW3"
+	(global_label "ROW6"
 		(shape input)
-		(at 234.95 71.12 0)
+		(at 246.38 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3226,7 +3087,7 @@
 		)
 		(uuid "4d5bf895-e14f-4a9f-8a79-2d8d1268b9a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.5424 71.12 0)
+			(at 253.9724 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,9 +3119,9 @@
 			)
 		)
 	)
-	(global_label "COL7"
+	(global_label "RAW"
 		(shape input)
-		(at 246.38 127 0)
+		(at 135.89 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3268,9 +3129,9 @@
 			)
 			(justify left)
 		)
-		(uuid "534c4484-83ed-4d3c-98bd-08c9d4c511d9")
+		(uuid "5cfac65d-dc46-4f47-a8d6-92bc1d5a6599")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5491 127 0)
+			(at 142.031 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,31 +3141,9 @@
 			)
 		)
 	)
-	(global_label "RAW"
+	(global_label "COL3"
 		(shape input)
-		(at 125.73 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5cfac65d-dc46-4f47-a8d6-92bc1d5a6599")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.589 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL8"
-		(shape input)
-		(at 179.07 25.4 90)
+		(at 190.5 25.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3314,7 +3153,7 @@
 		)
 		(uuid "5eb7bcc4-6874-4df8-bc60-b98d0a21a312")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 18.2309 90)
+			(at 190.5 18.2309 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +3165,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 137.16 139.7 0)
+		(at 137.16 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3336,271 +3175,7 @@
 		)
 		(uuid "6cb93665-0bcd-4104-8633-fffd1811eee0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.2361 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL5"
-		(shape input)
-		(at 246.38 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "723f3f9c-30da-4589-be91-aec93be3a766")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5491 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW1"
-		(shape input)
-		(at 234.95 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f399c3d-872f-416a-b065-3768f4a99cd1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.5424 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL6"
-		(shape input)
-		(at 140.97 25.4 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "95dc07e6-49a2-4cc7-a2c0-bf68cc6a7e99")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 18.2309 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL1"
-		(shape input)
-		(at 246.38 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "96ce8141-52d1-4e92-a0a1-02ccca7f1af8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5491 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW3"
-		(shape input)
-		(at 210.82 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f8279c0-4193-4692-8b51-2a1de5afc50d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2276 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW4"
-		(shape input)
-		(at 210.82 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a31c4fe0-bba1-432c-8157-7b3807411ec2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2276 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT+"
-		(shape input)
-		(at 168.91 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a59c231d-df27-4f6e-892f-2befcf90c902")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.6804 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT+"
-		(shape input)
-		(at 135.89 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b14c4dec-9568-4548-ac1d-38abc36f0b6d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.1196 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW1"
-		(shape input)
-		(at 210.82 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b264ad59-2648-4983-8ebd-ed2a64d162aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2276 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL10"
-		(shape input)
-		(at 217.17 25.4 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b57a1414-08e6-43a3-9995-380b7ee5f02f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.17 17.0214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL9"
-		(shape input)
-		(at 210.82 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b73f5401-53d2-4802-95d1-6401a68f4a95")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.6509 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL4"
-		(shape input)
-		(at 246.38 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d53277f9-4433-4e46-9926-4e684639c637")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5491 138.43 0)
+			(at 145.2361 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,6 +3187,50 @@
 	)
 	(global_label "ROW2"
 		(shape input)
+		(at 246.38 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f399c3d-872f-416a-b065-3768f4a99cd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.9724 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW7"
+		(shape input)
+		(at 246.38 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88a90c7d-aafd-474e-8e20-9ca40fd3c3fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.9724 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
 		(at 210.82 142.24 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3620,9 +3239,97 @@
 			)
 			(justify right)
 		)
-		(uuid "d813f3c4-91fd-4a7d-88e9-d915547deea6")
+		(uuid "896881bb-0fbb-45b1-ab19-f4cf1a99790f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2276 142.24 0)
+			(at 203.6509 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW5"
+		(shape input)
+		(at 246.38 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a2f9997-15be-40ea-9066-6e2cb8bdf2b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.9724 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 152.4 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95dc07e6-49a2-4cc7-a2c0-bf68cc6a7e99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 18.2309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 210.82 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "969304a4-3082-41d6-9112-c1ae785bc5c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2276 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 210.82 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f8279c0-4193-4692-8b51-2a1de5afc50d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.6509 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3341,95 @@
 	)
 	(global_label "COL3"
 		(shape input)
-		(at 246.38 142.24 0)
+		(at 210.82 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a31c4fe0-bba1-432c-8157-7b3807411ec2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.6509 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT+"
+		(shape input)
+		(at 168.91 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a59c231d-df27-4f6e-892f-2befcf90c902")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.6804 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT+"
+		(shape input)
+		(at 125.73 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b14c4dec-9568-4548-ac1d-38abc36f0b6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.5004 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW6"
+		(shape input)
+		(at 210.82 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b264ad59-2648-4983-8ebd-ed2a64d162aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2276 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 228.6 25.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3642,14 +3437,102 @@
 			)
 			(justify left)
 		)
-		(uuid "dc16d7e5-a360-4a74-b83f-8b7d4dd10715")
+		(uuid "b57a1414-08e6-43a3-9995-380b7ee5f02f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5491 142.24 0)
+			(at 228.6 18.2309 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 210.82 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b73f5401-53d2-4802-95d1-6401a68f4a95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2276 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 140.97 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd564b88-490f-4296-ad9f-6f42e2635b2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.5624 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 140.97 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb54d91b-0343-415a-aacc-87ed5de3d347")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.5624 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 210.82 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d813f3c4-91fd-4a7d-88e9-d915547deea6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.6509 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3676,9 +3559,9 @@
 			)
 		)
 	)
-	(global_label "COL9"
+	(global_label "COL4"
 		(shape input)
-		(at 198.12 25.4 90)
+		(at 209.55 25.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3688,7 +3571,7 @@
 		)
 		(uuid "f26a25c7-d06f-4b39-b682-da7625a7b486")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.12 18.2309 90)
+			(at 209.55 18.2309 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,9 +3581,9 @@
 			)
 		)
 	)
-	(global_label "COL7"
+	(global_label "COL2"
 		(shape input)
-		(at 160.02 25.4 90)
+		(at 171.45 25.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3710,7 +3593,7 @@
 		)
 		(uuid "f4f837a7-8641-43d4-b6a8-310dbafd4314")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.02 18.2309 90)
+			(at 171.45 18.2309 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3603,29 @@
 			)
 		)
 	)
-	(global_label "COL10"
+	(global_label "ROW1"
+		(shape input)
+		(at 210.82 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6903ce3-580d-4de1-899c-af565bd87e52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2276 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW4"
 		(shape input)
 		(at 210.82 111.76 180)
 		(fields_autoplaced yes)
@@ -3732,7 +3637,7 @@
 		)
 		(uuid "fadfa170-7edf-41f5-99ee-ef5ce568014e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.4414 111.76 0)
+			(at 203.2276 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +3783,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 130.81 139.7 0)
+		(at 130.81 152.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3887,7 +3792,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060fa8d3c")
 		(property "Reference" "BTN1"
-			(at 130.81 132.461 0)
+			(at 130.81 145.161 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,15 +3800,15 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 130.81 134.7724 0)
+			(at 130.81 147.4724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "fract-footprints:SW_PTS636"
-			(at 130.81 134.62 0)
+		(property "Footprint" "fract-footprints:SW_Push_6mm"
+			(at 130.81 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3817,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 134.62 0)
+			(at 130.81 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +3826,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 139.7 0)
+			(at 130.81 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3946,7 +3851,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 140.97 0)
+		(at 124.46 153.67 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3955,7 +3860,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060fb8e05")
 		(property "Reference" "#PWR04"
-			(at 124.46 147.32 0)
+			(at 124.46 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,7 +3869,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.333 145.3642 0)
+			(at 124.333 158.0642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +3877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 140.97 0)
+			(at 124.46 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +3886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 140.97 0)
+			(at 124.46 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +3895,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 140.97 0)
+			(at 124.46 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +3917,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:Hole_Pad")
-		(at 36.83 115.57 0)
+		(at 36.83 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4020,7 +3925,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000610d7ee0")
 		(property "Reference" "H1"
-			(at 39.37 114.3254 0)
+			(at 39.37 127.0254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +3934,7 @@
 			)
 		)
 		(property "Value" "Hole_Pad"
-			(at 39.37 116.6368 0)
+			(at 39.37 129.3368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +3943,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:Mount_M2"
-			(at 36.83 115.57 0)
+			(at 36.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,7 +3952,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 115.57 0)
+			(at 36.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +3961,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 115.57 0)
+			(at 36.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +3983,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:Hole_Pad")
-		(at 50.8 115.57 0)
+		(at 50.8 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4086,7 +3991,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000610d9935")
 		(property "Reference" "H2"
-			(at 53.34 114.3254 0)
+			(at 53.34 127.0254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4000,7 @@
 			)
 		)
 		(property "Value" "Hole_Pad"
-			(at 53.34 116.6368 0)
+			(at 53.34 129.3368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4009,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:Mount_M2"
-			(at 50.8 115.57 0)
+			(at 50.8 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4018,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 115.57 0)
+			(at 50.8 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4027,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 115.57 0)
+			(at 50.8 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4049,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:Hole_Pad")
-		(at 64.77 115.57 0)
+		(at 64.77 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4152,7 +4057,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000610e42c7")
 		(property "Reference" "H3"
-			(at 67.31 114.3254 0)
+			(at 67.31 127.0254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +4066,7 @@
 			)
 		)
 		(property "Value" "Hole_Pad"
-			(at 67.31 116.6368 0)
+			(at 67.31 129.3368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4075,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:Mount_M2"
-			(at 64.77 115.57 0)
+			(at 64.77 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4084,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 115.57 0)
+			(at 64.77 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4093,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 115.57 0)
+			(at 64.77 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4115,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:Hole_Pad")
-		(at 78.74 115.57 0)
+		(at 78.74 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4218,7 +4123,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000610e42cd")
 		(property "Reference" "H4"
-			(at 81.28 114.3254 0)
+			(at 81.28 127.0254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +4132,7 @@
 			)
 		)
 		(property "Value" "Hole_Pad"
-			(at 81.28 116.6368 0)
+			(at 81.28 129.3368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4141,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:Mount_M2"
-			(at 78.74 115.57 0)
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 115.57 0)
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +4159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 115.57 0)
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +4181,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:Logo")
-		(at 45.72 140.97 0)
+		(at 44.45 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4284,7 +4189,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000611138f2")
 		(property "Reference" "LOGO1"
-			(at 52.7812 139.8016 0)
+			(at 51.5112 157.5816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4198,7 @@
 			)
 		)
 		(property "Value" "Logo"
-			(at 52.7812 142.113 0)
+			(at 51.5112 159.893 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4207,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:Logo_Fract"
-			(at 45.72 142.24 0)
+			(at 44.45 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +4216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 142.24 0)
+			(at 44.45 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +4225,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 140.97 0)
+			(at 44.45 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,15 +4780,15 @@
 	)
 	(symbol
 		(lib_id "fract-components:Logo")
-		(at 83.82 140.97 0)
+		(at 44.45 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061512730")
-		(property "Reference" "LOGO2"
-			(at 90.8812 139.8016 0)
+		(property "Reference" "LOGO3"
+			(at 51.5112 172.8216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,7 +4797,7 @@
 			)
 		)
 		(property "Value" "Logo-Name"
-			(at 90.8812 142.113 0)
+			(at 51.5112 175.133 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,7 +4806,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:Logo_Fract_Name"
-			(at 83.82 142.24 0)
+			(at 44.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,7 +4815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 142.24 0)
+			(at 44.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4919,7 +4824,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 140.97 0)
+			(at 44.45 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,7 +4835,7 @@
 		(instances
 			(project "fract-choc"
 				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "LOGO2")
+					(reference "LOGO3")
 					(unit 1)
 				)
 			)
@@ -5008,7 +4913,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 151.13 38.1 90)
+		(at 162.56 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5017,7 +4922,7 @@
 		(fields_autoplaced yes)
 		(uuid "05f4ac25-2642-440f-bd84-63559919b338")
 		(property "Reference" "D6"
-			(at 153.67 36.8299 90)
+			(at 165.1 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +4931,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 153.67 39.3699 90)
+			(at 165.1 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,7 +4940,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 151.13 38.1 90)
+			(at 162.56 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +4949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 38.1 90)
+			(at 162.56 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +4958,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 151.13 38.1 0)
+			(at 162.56 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,7 +4983,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 146.05 66.04 0)
+		(at 157.48 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5086,7 +4991,7 @@
 		(dnp no)
 		(uuid "06dbbbc6-6cec-4ffb-b2a6-eda0ad40cb27")
 		(property "Reference" "SW26"
-			(at 146.05 58.801 0)
+			(at 157.48 58.801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +4999,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 146.05 61.1124 0)
+			(at 157.48 61.1124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +5007,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 146.05 60.96 0)
+			(at 157.48 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +5016,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 60.96 0)
+			(at 157.48 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +5025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 66.04 0)
+			(at 157.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,7 +5120,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 151.13 53.34 90)
+		(at 162.56 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5224,7 +5129,7 @@
 		(fields_autoplaced yes)
 		(uuid "08fa6e36-4c84-4063-bef7-20460ee3b825")
 		(property "Reference" "D16"
-			(at 153.67 52.0699 90)
+			(at 165.1 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +5138,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 153.67 54.6099 90)
+			(at 165.1 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +5147,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 151.13 53.34 90)
+			(at 162.56 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +5156,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 53.34 90)
+			(at 162.56 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +5165,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 151.13 53.34 0)
+			(at 162.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,7 +5190,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 222.25 50.8 0)
+		(at 233.68 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5293,7 +5198,7 @@
 		(dnp no)
 		(uuid "0a464a98-08a3-4482-90aa-edbc529fd282")
 		(property "Reference" "SW20"
-			(at 222.25 43.561 0)
+			(at 233.68 43.561 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +5206,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 222.25 45.8724 0)
+			(at 233.68 45.8724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,7 +5214,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 222.25 45.72 0)
+			(at 233.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5223,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 45.72 0)
+			(at 233.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 50.8 0)
+			(at 233.68 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +5257,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 151.13 68.58 90)
+		(at 162.56 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5361,7 +5266,7 @@
 		(fields_autoplaced yes)
 		(uuid "102db6e5-f169-4624-a9fa-522849d9d6e3")
 		(property "Reference" "D26"
-			(at 153.67 67.3099 90)
+			(at 165.1 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,7 +5275,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 153.67 69.8499 90)
+			(at 165.1 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5379,7 +5284,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 151.13 68.58 90)
+			(at 162.56 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,7 +5293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 68.58 90)
+			(at 162.56 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5397,7 +5302,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 151.13 68.58 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,7 +5462,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 158.75 115.57 0)
+		(at 158.75 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5566,7 +5471,7 @@
 		(fields_autoplaced yes)
 		(uuid "18d187c0-a72a-4e27-b5da-6d82033499c2")
 		(property "Reference" "#PWR05"
-			(at 158.75 121.92 0)
+			(at 158.75 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5480,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 120.65 0)
+			(at 158.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +5488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 115.57 0)
+			(at 158.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +5497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 115.57 0)
+			(at 158.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +5506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 115.57 0)
+			(at 158.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +5528,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:Conn_01x02")
-		(at 173.99 115.57 0)
+		(at 173.99 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5632,7 +5537,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bf8bf95-d7fe-45f7-b248-2f050fbe5dbd")
 		(property "Reference" "J1"
-			(at 175.26 115.5699 0)
+			(at 175.26 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,7 +5546,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 175.26 118.1099 0)
+			(at 175.26 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5650,7 +5555,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 173.99 115.57 0)
+			(at 173.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,7 +5564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 115.57 0)
+			(at 173.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5668,7 +5573,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 173.99 115.57 0)
+			(at 173.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,7 +5598,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 227.33 53.34 90)
+		(at 238.76 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5702,7 +5607,7 @@
 		(fields_autoplaced yes)
 		(uuid "21851a3e-bbc6-4568-bba7-6769620eb39f")
 		(property "Reference" "D20"
-			(at 229.87 52.0699 90)
+			(at 241.3 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +5616,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 229.87 54.6099 90)
+			(at 241.3 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,7 +5625,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 227.33 53.34 90)
+			(at 238.76 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +5634,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 53.34 90)
+			(at 238.76 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,7 +5643,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 227.33 53.34 0)
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5668,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 71.12 81.28 0)
+		(at 128.27 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5771,7 +5676,7 @@
 		(dnp no)
 		(uuid "23d59d05-282c-488f-9398-021326d68627")
 		(property "Reference" "SW32"
-			(at 71.12 74.041 0)
+			(at 128.27 74.041 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,7 +5684,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 71.12 76.3524 0)
+			(at 128.27 76.3524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5787,7 +5692,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 71.12 76.2 0)
+			(at 128.27 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,7 +5701,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 76.2 0)
+			(at 128.27 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +5710,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 81.28 0)
+			(at 128.27 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +5875,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 109.22 81.28 0)
+		(at 176.53 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5978,6 +5883,341 @@
 		(dnp no)
 		(uuid "288bf2ff-3838-47ec-99b3-63cea794abbd")
 		(property "Reference" "SW34"
+			(at 176.53 74.041 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 176.53 76.3524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fract-footprints:SW_Choc"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cde4934-03d1-40e4-a350-04f510b3c2e7")
+		)
+		(pin "2"
+			(uuid "99e8c468-a644-46ad-9597-f854eb7a6efd")
+		)
+		(instances
+			(project "fract-choc"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fract-components:SW_Push")
+		(at 233.68 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28f1575b-cf00-4f14-b0ec-3c7846f2eb50")
+		(property "Reference" "SW30"
+			(at 233.68 58.801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 233.68 61.1124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fract-footprints:SW_Choc"
+			(at 233.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d050f0b8-9d9b-4756-a212-abd7e6db14f7")
+		)
+		(pin "2"
+			(uuid "3435bc46-e6fa-4dc1-bf6a-33722583db9a")
+		)
+		(instances
+			(project "fract-choc"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fract-components:SW_Push")
+		(at 176.53 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a770134-3f4e-4b5d-a934-702f16f19b96")
+		(property "Reference" "SW7"
+			(at 176.53 28.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 176.53 30.6324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fract-footprints:SW_Choc"
+			(at 176.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b50f9f9-c910-4067-85c2-3ad0f2b4f5e5")
+		)
+		(pin "2"
+			(uuid "5bb24586-7fe8-46fd-bc97-cd56978384aa")
+		)
+		(instances
+			(project "fract-choc"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fract-components:Cutout")
+		(at 100.33 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b991ebc-a90e-4dcf-ba7d-9e457172978d")
+		(property "Reference" "CUTOUT3"
+			(at 106.68 104.7749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cutout-BTN"
+			(at 106.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fract-footprints:Cutout_SW_Push_6mm"
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "CUTOUT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fract-components:D")
+		(at 238.76 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cce1d3f-0675-4ff7-9e09-cffb6a73e036")
+		(property "Reference" "D30"
+			(at 241.3 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 241.3 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "fract-footprints:D_SOD-123"
+			(at 238.76 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 238.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c02c730-4346-423b-9fbe-03094fcd0abf")
+		)
+		(pin "2"
+			(uuid "790e357b-0dbf-4098-a037-90461d4513a2")
+		)
+		(instances
+			(project "fract-choc"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fract-components:SW_Push")
+		(at 109.22 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ef0f5ec-7845-4e42-97ca-e41598cdb390")
+		(property "Reference" "SW31"
 			(at 109.22 74.041 0)
 			(effects
 				(font
@@ -6021,481 +6261,6 @@
 			)
 		)
 		(pin "1"
-			(uuid "0cde4934-03d1-40e4-a350-04f510b3c2e7")
-		)
-		(pin "2"
-			(uuid "99e8c468-a644-46ad-9597-f854eb7a6efd")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "SW34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:SW_Push")
-		(at 222.25 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28f1575b-cf00-4f14-b0ec-3c7846f2eb50")
-		(property "Reference" "SW30"
-			(at 222.25 58.801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 222.25 61.1124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 222.25 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d050f0b8-9d9b-4756-a212-abd7e6db14f7")
-		)
-		(pin "2"
-			(uuid "3435bc46-e6fa-4dc1-bf6a-33722583db9a")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "SW30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:SW_Push")
-		(at 146.05 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fd708f2-0b2c-422b-8a95-a1284867f763")
-		(property "Reference" "SW36"
-			(at 146.05 74.041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 146.05 76.3524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 146.05 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "376ad611-e234-4396-8626-8873e2646619")
-		)
-		(pin "2"
-			(uuid "43646ca2-29dc-41a6-aaa8-0a276de0cc8e")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "SW36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:SW_Push")
-		(at 222.25 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30fdc9da-eb86-4d3e-a123-91d719d5c32f")
-		(property "Reference" "SW40"
-			(at 222.25 74.041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 222.25 76.3524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 222.25 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7214e63-ffeb-4f72-b94a-236cf4aa1522")
-		)
-		(pin "2"
-			(uuid "6846b1d2-c751-4d55-8ad2-f7b644eaf151")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "SW40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:D")
-		(at 151.13 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42045d56-d717-4582-9c4f-849f4447dd19")
-		(property "Reference" "D36"
-			(at 153.67 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 153.67 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 151.13 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 151.13 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d1981b0-d4ce-45b5-8d11-387fa7790242")
-		)
-		(pin "2"
-			(uuid "c9acea93-7cf5-49aa-89ad-20b720e2bc60")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "D36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:SW_Push")
-		(at 165.1 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a770134-3f4e-4b5d-a934-702f16f19b96")
-		(property "Reference" "SW7"
-			(at 165.1 28.321 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 165.1 30.6324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 165.1 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b50f9f9-c910-4067-85c2-3ad0f2b4f5e5")
-		)
-		(pin "2"
-			(uuid "5bb24586-7fe8-46fd-bc97-cd56978384aa")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:D")
-		(at 227.33 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cce1d3f-0675-4ff7-9e09-cffb6a73e036")
-		(property "Reference" "D30"
-			(at 229.87 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 229.87 69.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 227.33 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 227.33 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c02c730-4346-423b-9fbe-03094fcd0abf")
-		)
-		(pin "2"
-			(uuid "790e357b-0dbf-4098-a037-90461d4513a2")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "D30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:SW_Push")
-		(at 52.07 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ef0f5ec-7845-4e42-97ca-e41598cdb390")
-		(property "Reference" "SW31"
-			(at 52.07 74.041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 52.07 76.3524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 52.07 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
 			(uuid "78a03f53-20aa-4824-a760-4bdca5d76725")
 		)
 		(pin "2"
@@ -6512,7 +6277,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 170.18 53.34 90)
+		(at 181.61 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6521,7 +6286,7 @@
 		(fields_autoplaced yes)
 		(uuid "517e9468-2210-457e-87c1-8a408c91bfa5")
 		(property "Reference" "D17"
-			(at 172.72 52.0699 90)
+			(at 184.15 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +6295,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 172.72 54.6099 90)
+			(at 184.15 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6539,7 +6304,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 170.18 53.34 90)
+			(at 181.61 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6548,7 +6313,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 53.34 90)
+			(at 181.61 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6557,7 +6322,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 170.18 53.34 0)
+			(at 181.61 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,35 +6346,34 @@
 		)
 	)
 	(symbol
-		(lib_id "fract-components:D")
-		(at 227.33 83.82 90)
+		(lib_id "fract-components:Hole_Pad")
+		(at 50.8 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54fbc599-4146-4ab4-ad97-898332b30907")
-		(property "Reference" "D40"
-			(at 229.87 82.5499 90)
+		(uuid "54916443-de9a-425c-b0cd-798dd155a36c")
+		(property "Reference" "H7"
+			(at 53.34 135.9154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 229.87 85.0899 90)
+		(property "Value" "Hole_Pad"
+			(at 53.34 138.2268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 227.33 83.82 90)
+		(property "Footprint" "fract-footprints:Mount_M2"
+			(at 50.8 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,7 +6382,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 83.82 90)
+			(at 50.8 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6626,8 +6390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode, small symbol"
-			(at 227.33 83.82 0)
+		(property "Description" ""
+			(at 50.8 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,15 +6400,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2143371b-3845-4b99-a64b-c89f06a09f19")
-		)
-		(pin "2"
-			(uuid "f8553472-b866-47a0-952b-2ded29ee0f2f")
+			(uuid "cf7db630-f87a-4b0d-b61d-7852b286447c")
 		)
 		(instances
 			(project "fract-choc"
 				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "D40")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -6652,7 +6413,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 189.23 68.58 90)
+		(at 200.66 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6661,7 +6422,7 @@
 		(fields_autoplaced yes)
 		(uuid "56c8090b-07d3-46b4-834a-d85860302570")
 		(property "Reference" "D28"
-			(at 191.77 67.3099 90)
+			(at 203.2 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6431,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 191.77 69.8499 90)
+			(at 203.2 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +6440,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 189.23 68.58 90)
+			(at 200.66 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,7 +6449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 68.58 90)
+			(at 200.66 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,7 +6458,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 189.23 68.58 0)
+			(at 200.66 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,32 +6549,34 @@
 		)
 	)
 	(symbol
-		(lib_id "fract-components:SW_Push")
-		(at 203.2 35.56 0)
+		(lib_id "fract-components:Logo")
+		(at 71.12 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "62189737-160c-46b1-93ce-e0da1976961c")
-		(property "Reference" "SW9"
-			(at 203.2 28.321 0)
+		(uuid "5d868739-764c-4541-945e-895ec8023670")
+		(property "Reference" "LOGO2"
+			(at 78.1812 157.5816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 203.2 30.6324 0)
+		(property "Value" "Logo"
+			(at 78.1812 159.893 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 203.2 30.48 0)
+		(property "Footprint" "fract-footprints:Logo_Fract"
+			(at 71.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,8 +6584,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 203.2 30.48 0)
+		(property "Datasheet" ""
+			(at 71.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +6594,68 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 35.56 0)
+			(at 71.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "fract-choc"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "LOGO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fract-components:SW_Push")
+		(at 214.63 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62189737-160c-46b1-93ce-e0da1976961c")
+		(property "Reference" "SW9"
+			(at 214.63 28.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 214.63 30.6324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fract-footprints:SW_Choc"
+			(at 214.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,7 +6747,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 227.33 38.1 90)
+		(at 238.76 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6932,7 +6756,7 @@
 		(fields_autoplaced yes)
 		(uuid "637b3f5c-0c32-4a15-bc4f-ee23783e624a")
 		(property "Reference" "D10"
-			(at 229.87 36.8299 90)
+			(at 241.3 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +6765,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 229.87 39.3699 90)
+			(at 241.3 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,7 +6774,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 227.33 38.1 90)
+			(at 238.76 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +6783,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 38.1 90)
+			(at 238.76 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6968,7 +6792,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 227.33 38.1 0)
+			(at 238.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,73 +6810,6 @@
 			(project "fract-choc"
 				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:SW_Push")
-		(at 184.15 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "668eb2d6-e2ed-44bf-a7b2-572a4040b01b")
-		(property "Reference" "SW38"
-			(at 184.15 74.041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 184.15 76.3524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 184.15 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56d40429-1262-4425-be1a-e27223a53c35")
-		)
-		(pin "2"
-			(uuid "70fba61e-928f-4066-9c46-413a4b3f4ccd")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "SW38")
 					(unit 1)
 				)
 			)
@@ -7127,7 +6884,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:Hole_Pad")
-		(at 92.71 115.57 0)
+		(at 92.71 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7135,7 +6892,7 @@
 		(dnp no)
 		(uuid "6a9c4ac0-042b-4635-abba-590d61b076e7")
 		(property "Reference" "H5"
-			(at 95.25 114.3254 0)
+			(at 95.25 127.0254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,7 +6901,7 @@
 			)
 		)
 		(property "Value" "Hole_Pad"
-			(at 95.25 116.6368 0)
+			(at 95.25 129.3368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7153,7 +6910,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:Mount_M2"
-			(at 92.71 115.57 0)
+			(at 92.71 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,7 +6919,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 115.57 0)
+			(at 92.71 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +6928,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 115.57 0)
+			(at 92.71 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,283 +6943,6 @@
 			(project "fract-choc"
 				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
 					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:D")
-		(at 133.35 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6af200c2-23fb-4d22-8eb2-bc57068a910d")
-		(property "Reference" "D35"
-			(at 135.89 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 135.89 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 133.35 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 133.35 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c358e8e-93ec-456f-86a7-68f9121932d3")
-		)
-		(pin "2"
-			(uuid "cad01ecb-2b57-4158-b992-866386948413")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "D35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:D")
-		(at 208.28 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ef5a62d-b648-4da8-af75-3c7d2c515665")
-		(property "Reference" "D39"
-			(at 210.82 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 210.82 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 208.28 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 208.28 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5656222f-56a0-488a-a23d-33126a8d44c8")
-		)
-		(pin "2"
-			(uuid "ddd3ba8b-9b69-4c70-aeaa-5aead3009d9e")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "D39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:D")
-		(at 170.18 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e20d56a-3585-40d2-84eb-14aec8322e3c")
-		(property "Reference" "D37"
-			(at 172.72 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 172.72 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 170.18 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 170.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "888f45ce-76bb-42e9-afc2-f8d42fdbedb5")
-		)
-		(pin "2"
-			(uuid "b883de29-5eb6-4f27-a137-68bad9894b3a")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "D37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:SW_Push")
-		(at 165.1 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80095810-2a7c-4247-9d1d-51ed8b371c41")
-		(property "Reference" "SW37"
-			(at 165.1 74.041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 165.1 76.3524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd1bdcb1-717f-4690-a875-32357587d747")
-		)
-		(pin "2"
-			(uuid "9ea03391-e72e-44fb-b81b-8fa4294ff860")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -7540,7 +7020,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 208.28 38.1 90)
+		(at 219.71 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7549,7 +7029,7 @@
 		(fields_autoplaced yes)
 		(uuid "80a7e268-6b45-40dc-b2a6-d00587e4ddc1")
 		(property "Reference" "D9"
-			(at 210.82 36.8299 90)
+			(at 222.25 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,7 +7038,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 210.82 39.3699 90)
+			(at 222.25 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +7047,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 208.28 38.1 90)
+			(at 219.71 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +7056,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 38.1 90)
+			(at 219.71 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7585,7 +7065,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 208.28 38.1 0)
+			(at 219.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7679,8 +7159,72 @@
 		)
 	)
 	(symbol
+		(lib_id "fract-components:Cutout")
+		(at 124.46 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84073616-aa48-4931-8a7a-3277fa9b0ca1")
+		(property "Reference" "CUTOUT4"
+			(at 130.81 104.7749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cutout-Conn"
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fract-footprints:Cutout_JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "CUTOUT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "fract-components:D")
-		(at 208.28 53.34 90)
+		(at 219.71 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7689,7 +7233,7 @@
 		(fields_autoplaced yes)
 		(uuid "84562327-e837-4663-a178-ec4f40318042")
 		(property "Reference" "D19"
-			(at 210.82 52.0699 90)
+			(at 222.25 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7698,7 +7242,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 210.82 54.6099 90)
+			(at 222.25 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7707,7 +7251,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 208.28 53.34 90)
+			(at 219.71 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7716,7 +7260,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 53.34 90)
+			(at 219.71 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7725,7 +7269,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 208.28 53.34 0)
+			(at 219.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,32 +7293,34 @@
 		)
 	)
 	(symbol
-		(lib_id "fract-components:SW_Push")
-		(at 184.15 35.56 0)
+		(lib_id "fract-components:Hole_Pad")
+		(at 92.71 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "84e70501-18ed-46b7-97a1-178b4bcc8f78")
-		(property "Reference" "SW8"
-			(at 184.15 28.321 0)
+		(uuid "8460f1fd-0b69-41ad-b6ce-6c6186755cea")
+		(property "Reference" "H10"
+			(at 95.25 135.9154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 184.15 30.6324 0)
+		(property "Value" "Hole_Pad"
+			(at 95.25 138.2268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 184.15 30.48 0)
+		(property "Footprint" "fract-footprints:Mount_M2"
+			(at 92.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7783,7 +7329,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 30.48 0)
+			(at 92.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7792,7 +7338,71 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 35.56 0)
+			(at 92.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27756bd5-bc0d-4ed0-8c70-553f2869e49a")
+		)
+		(instances
+			(project "fract-choc"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fract-components:SW_Push")
+		(at 195.58 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84e70501-18ed-46b7-97a1-178b4bcc8f78")
+		(property "Reference" "SW8"
+			(at 195.58 28.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 195.58 30.6324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fract-footprints:SW_Choc"
+			(at 195.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +7427,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 203.2 50.8 0)
+		(at 214.63 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7825,7 +7435,7 @@
 		(dnp no)
 		(uuid "84f87e64-9806-4210-b673-f94e7dc1b141")
 		(property "Reference" "SW19"
-			(at 203.2 43.561 0)
+			(at 214.63 43.561 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7833,7 +7443,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 203.2 45.8724 0)
+			(at 214.63 45.8724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,7 +7451,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 203.2 45.72 0)
+			(at 214.63 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7850,7 +7460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 45.72 0)
+			(at 214.63 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,7 +7469,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 50.8 0)
+			(at 214.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7884,7 +7494,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 222.25 35.56 0)
+		(at 233.68 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7892,7 +7502,7 @@
 		(dnp no)
 		(uuid "87051c1f-33e6-414d-ad40-b5afdf14196c")
 		(property "Reference" "SW10"
-			(at 222.25 28.321 0)
+			(at 233.68 28.321 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7900,7 +7510,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 222.25 30.6324 0)
+			(at 233.68 30.6324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +7518,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 222.25 30.48 0)
+			(at 233.68 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +7527,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 30.48 0)
+			(at 233.68 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +7536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 35.56 0)
+			(at 233.68 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +7561,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 165.1 50.8 0)
+		(at 176.53 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7959,7 +7569,7 @@
 		(dnp no)
 		(uuid "8938ade7-fdd8-47fa-9435-ce21d9961edf")
 		(property "Reference" "SW17"
-			(at 165.1 43.561 0)
+			(at 176.53 43.561 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7967,7 +7577,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 165.1 45.8724 0)
+			(at 176.53 45.8724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7975,7 +7585,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 165.1 45.72 0)
+			(at 176.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7984,7 +7594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 45.72 0)
+			(at 176.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7993,7 +7603,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 50.8 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8087,35 +7697,34 @@
 		)
 	)
 	(symbol
-		(lib_id "fract-components:D")
-		(at 95.25 83.82 90)
+		(lib_id "fract-components:Hole_Pad")
+		(at 78.74 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94e8d48a-b24f-42d8-8662-6bb8406564c4")
-		(property "Reference" "D33"
-			(at 97.79 82.5499 90)
+		(uuid "898c3ec9-e29b-4441-aa47-d457f6befae8")
+		(property "Reference" "H9"
+			(at 81.28 135.9154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 97.79 85.0899 90)
+		(property "Value" "Hole_Pad"
+			(at 81.28 138.2268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 95.25 83.82 90)
+		(property "Footprint" "fract-footprints:Mount_M2"
+			(at 78.74 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +7733,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 83.82 90)
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b6c15ea-863c-4f9f-9c11-37847916ea84")
+		)
+		(instances
+			(project "fract-choc"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fract-components:D")
+		(at 162.56 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94e8d48a-b24f-42d8-8662-6bb8406564c4")
+		(property "Reference" "D33"
+			(at 165.1 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 165.1 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "fract-footprints:D_SOD-123"
+			(at 162.56 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +7809,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 95.25 83.82 0)
+			(at 162.56 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8158,7 +7834,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 57.15 83.82 90)
+		(at 114.3 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8167,7 +7843,7 @@
 		(fields_autoplaced yes)
 		(uuid "99deff2a-5546-4a9b-b21d-b88f8ec41e28")
 		(property "Reference" "D31"
-			(at 59.69 82.5499 90)
+			(at 116.84 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +7852,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 59.69 85.0899 90)
+			(at 116.84 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,7 +7861,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 57.15 83.82 90)
+			(at 114.3 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8194,7 +7870,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 83.82 90)
+			(at 114.3 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,7 +7879,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 57.15 83.82 0)
+			(at 114.3 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8234,7 +7910,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9daadaf0-acd5-4e25-aacb-c29633325d81")
 		(property "Reference" "D15"
 			(at 135.89 52.0699 90)
@@ -8298,7 +7973,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 189.23 38.1 90)
+		(at 200.66 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8307,7 +7982,7 @@
 		(fields_autoplaced yes)
 		(uuid "a08a9050-9ca7-4718-9b22-0daa44cb07be")
 		(property "Reference" "D8"
-			(at 191.77 36.8299 90)
+			(at 203.2 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +7991,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 191.77 39.3699 90)
+			(at 203.2 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8000,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 189.23 38.1 90)
+			(at 200.66 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +8009,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 38.1 90)
+			(at 200.66 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8343,7 +8018,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 189.23 38.1 0)
+			(at 200.66 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,6 +8036,70 @@
 			(project "fract-choc"
 				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fract-components:Cutout")
+		(at 40.64 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6acad2a-5f81-44cb-957c-48bbc8773530")
+		(property "Reference" "CUTOUT1"
+			(at 46.99 104.7749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cutout-nice!nano"
+			(at 46.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fract-footprints:Cutout_nice!nano"
+			(at 40.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "CUTOUT1")
 					(unit 1)
 				)
 			)
@@ -8644,7 +8383,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 189.23 53.34 90)
+		(at 200.66 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8653,7 +8392,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9d407a9-f2b8-4d7e-9abd-a8aecd1dffe1")
 		(property "Reference" "D18"
-			(at 191.77 52.0699 90)
+			(at 203.2 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8662,7 +8401,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 191.77 54.6099 90)
+			(at 203.2 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,7 +8410,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 189.23 53.34 90)
+			(at 200.66 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,7 +8419,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 53.34 90)
+			(at 200.66 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8428,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 189.23 53.34 0)
+			(at 200.66 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +8459,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "afd34f53-8379-47b1-8be7-d9494d4ddb0f")
 		(property "Reference" "D25"
 			(at 135.89 67.3099 90)
@@ -8777,143 +8515,6 @@
 			(project "fract-choc"
 				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
 					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:SW_Push")
-		(at 203.2 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0675c68-3533-4426-a779-4497c78c7d1e")
-		(property "Reference" "SW39"
-			(at 203.2 74.041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 203.2 76.3524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 203.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21112be0-c2d4-4b2c-82b0-81d00261f4d5")
-		)
-		(pin "2"
-			(uuid "058f1c69-c054-4eb5-9fa8-4f4e1fea8706")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "SW39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fract-components:D")
-		(at 189.23 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b140b859-6f91-479d-9193-233ab92c8327")
-		(property "Reference" "D38"
-			(at 191.77 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 191.77 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 189.23 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 189.23 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92346245-fb62-43d5-8aac-627e845d3f28")
-		)
-		(pin "2"
-			(uuid "db7ece62-b3e8-4d86-9aeb-0c836f92983c")
-		)
-		(instances
-			(project "fract-choc"
-				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -8991,7 +8592,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 208.28 68.58 90)
+		(at 219.71 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9000,7 +8601,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6e73ee4-0000-4ccc-bffd-52742b74cf2f")
 		(property "Reference" "D29"
-			(at 210.82 67.3099 90)
+			(at 222.25 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9009,7 +8610,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 210.82 69.8499 90)
+			(at 222.25 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9018,7 +8619,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 208.28 68.58 90)
+			(at 219.71 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9027,7 +8628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 68.58 90)
+			(at 219.71 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,7 +8637,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 208.28 68.58 0)
+			(at 219.71 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9061,7 +8662,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 76.2 83.82 90)
+		(at 133.35 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9070,7 +8671,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8239e0b-9f5a-472d-8113-38e13618bb79")
 		(property "Reference" "D32"
-			(at 78.74 82.5499 90)
+			(at 135.89 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9079,7 +8680,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 78.74 85.0899 90)
+			(at 135.89 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9088,7 +8689,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 76.2 83.82 90)
+			(at 133.35 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9097,7 +8698,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 83.82 90)
+			(at 133.35 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,7 +8707,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 76.2 83.82 0)
+			(at 133.35 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9131,7 +8732,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 146.05 35.56 0)
+		(at 157.48 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9139,7 +8740,7 @@
 		(dnp no)
 		(uuid "b8af0b36-3320-4296-8785-7b824afacd1c")
 		(property "Reference" "SW6"
-			(at 146.05 28.321 0)
+			(at 157.48 28.321 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9147,7 +8748,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 146.05 30.6324 0)
+			(at 157.48 30.6324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9155,7 +8756,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 146.05 30.48 0)
+			(at 157.48 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9164,7 +8765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 30.48 0)
+			(at 157.48 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9173,7 +8774,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 35.56 0)
+			(at 157.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9267,6 +8868,72 @@
 		)
 	)
 	(symbol
+		(lib_id "fract-components:Hole_Pad")
+		(at 36.83 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4709168-e326-4beb-8cca-328118bc3fdf")
+		(property "Reference" "H6"
+			(at 39.37 135.9154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole_Pad"
+			(at 39.37 138.2268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fract-footprints:Mount_M2"
+			(at 36.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81181f87-9eec-4dc3-bbcf-188d4a851f5c")
+		)
+		(instances
+			(project "fract-choc"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "VCC_1")
 		(lib_id "power:VCC")
 		(at 257.81 121.92 0)
@@ -9335,7 +9002,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 146.05 50.8 0)
+		(at 157.48 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9343,7 +9010,7 @@
 		(dnp no)
 		(uuid "cb725aa4-3b40-4739-987f-378aa478dd8a")
 		(property "Reference" "SW16"
-			(at 146.05 43.561 0)
+			(at 157.48 43.561 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9351,7 +9018,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 146.05 45.8724 0)
+			(at 157.48 45.8724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9359,7 +9026,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 146.05 45.72 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9368,7 +9035,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 45.72 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9377,7 +9044,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 50.8 0)
+			(at 157.48 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,7 +9069,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 165.1 66.04 0)
+		(at 176.53 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9410,7 +9077,7 @@
 		(dnp no)
 		(uuid "cb7d2390-37a5-4f6e-940b-2d5ef9fbdabe")
 		(property "Reference" "SW27"
-			(at 165.1 58.801 0)
+			(at 176.53 58.801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,7 +9085,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 165.1 61.1124 0)
+			(at 176.53 61.1124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9426,7 +9093,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 165.1 60.96 0)
+			(at 176.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9435,7 +9102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 60.96 0)
+			(at 176.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9444,7 +9111,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 66.04 0)
+			(at 176.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9469,7 +9136,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 114.3 83.82 90)
+		(at 181.61 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9478,7 +9145,7 @@
 		(fields_autoplaced yes)
 		(uuid "d25a9d54-09fa-4bba-bba2-38bc8cc08d14")
 		(property "Reference" "D34"
-			(at 116.84 82.5499 90)
+			(at 184.15 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9487,7 +9154,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 116.84 85.0899 90)
+			(at 184.15 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,7 +9163,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 114.3 83.82 90)
+			(at 181.61 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9505,7 +9172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 83.82 90)
+			(at 181.61 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9514,7 +9181,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 114.3 83.82 0)
+			(at 181.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,32 +9342,34 @@
 		)
 	)
 	(symbol
-		(lib_id "fract-components:SW_Push")
-		(at 128.27 81.28 0)
+		(lib_id "fract-components:Hole_Pad")
+		(at 64.77 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "db24ade3-a024-4ba3-9ca8-4ffada444535")
-		(property "Reference" "SW35"
-			(at 128.27 74.041 0)
+		(uuid "dbe62c3a-e288-43a8-9c26-dd7e502ebc39")
+		(property "Reference" "H8"
+			(at 67.31 135.9154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 128.27 76.3524 0)
+		(property "Value" "Hole_Pad"
+			(at 67.31 138.2268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 128.27 76.2 0)
+		(property "Footprint" "fract-footprints:Mount_M2"
+			(at 64.77 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,7 +9378,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 76.2 0)
+			(at 64.77 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9718,7 +9387,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 81.28 0)
+			(at 64.77 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9727,15 +9396,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4bc277f8-259a-4739-80b8-07e20fbf7235")
-		)
-		(pin "2"
-			(uuid "928ae099-36ef-4c52-8acc-3666cec9cab5")
+			(uuid "de2f5b15-a185-4ed1-853b-dac63c3f71d2")
 		)
 		(instances
 			(project "fract-choc"
 				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
-					(reference "SW35")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -9743,7 +9409,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 184.15 66.04 0)
+		(at 195.58 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9751,7 +9417,7 @@
 		(dnp no)
 		(uuid "debd4803-b3c8-40fd-89de-46f952fe22d2")
 		(property "Reference" "SW28"
-			(at 184.15 58.801 0)
+			(at 195.58 58.801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9759,7 +9425,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 184.15 61.1124 0)
+			(at 195.58 61.1124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,7 +9433,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 184.15 60.96 0)
+			(at 195.58 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9776,7 +9442,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 60.96 0)
+			(at 195.58 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9785,7 +9451,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 66.04 0)
+			(at 195.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9810,7 +9476,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 90.17 81.28 0)
+		(at 157.48 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9818,7 +9484,7 @@
 		(dnp no)
 		(uuid "e55662ae-b97f-480f-a258-a5525efec904")
 		(property "Reference" "SW33"
-			(at 90.17 74.041 0)
+			(at 157.48 74.041 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9826,7 +9492,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 90.17 76.3524 0)
+			(at 157.48 76.3524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,7 +9500,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 90.17 76.2 0)
+			(at 157.48 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9843,7 +9509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 76.2 0)
+			(at 157.48 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,7 +9518,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 81.28 0)
+			(at 157.48 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9944,7 +9610,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 170.18 68.58 90)
+		(at 181.61 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9953,7 +9619,7 @@
 		(fields_autoplaced yes)
 		(uuid "ead14adb-00e6-4a56-bd65-ee0e336407a1")
 		(property "Reference" "D27"
-			(at 172.72 67.3099 90)
+			(at 184.15 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,7 +9628,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 172.72 69.8499 90)
+			(at 184.15 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,7 +9637,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 170.18 68.58 90)
+			(at 181.61 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9980,7 +9646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 68.58 90)
+			(at 181.61 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9989,7 +9655,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 170.18 68.58 0)
+			(at 181.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,7 +9680,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 184.15 50.8 0)
+		(at 195.58 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10022,7 +9688,7 @@
 		(dnp no)
 		(uuid "eb8eb7dc-ea16-4ee7-8811-32e9a36d2770")
 		(property "Reference" "SW18"
-			(at 184.15 43.561 0)
+			(at 195.58 43.561 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10030,7 +9696,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 184.15 45.8724 0)
+			(at 195.58 45.8724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10038,7 +9704,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 184.15 45.72 0)
+			(at 195.58 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10047,7 +9713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 45.72 0)
+			(at 195.58 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,7 +9722,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 50.8 0)
+			(at 195.58 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10081,7 +9747,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_Push")
-		(at 203.2 66.04 0)
+		(at 214.63 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10089,7 +9755,7 @@
 		(dnp no)
 		(uuid "efb411d8-307e-4cc4-9748-18222fbfab4d")
 		(property "Reference" "SW29"
-			(at 203.2 58.801 0)
+			(at 214.63 58.801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10097,7 +9763,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 203.2 61.1124 0)
+			(at 214.63 61.1124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10105,7 +9771,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_Choc"
-			(at 203.2 60.96 0)
+			(at 214.63 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10114,7 +9780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 60.96 0)
+			(at 214.63 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10123,7 +9789,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 66.04 0)
+			(at 214.63 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10148,7 +9814,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:SW_SPDT")
-		(at 130.81 119.38 0)
+		(at 130.81 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10157,7 +9823,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0221a6b-a01a-412c-9803-8c9c8595f239")
 		(property "Reference" "SPDT1"
-			(at 130.81 111.76 0)
+			(at 130.81 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10165,7 +9831,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 130.81 114.3 0)
+			(at 130.81 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +9839,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:SW_EG1218"
-			(at 130.81 119.38 0)
+			(at 130.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10182,7 +9848,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 127 0)
+			(at 130.81 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10191,7 +9857,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 130.81 119.38 0)
+			(at 130.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10219,7 +9885,7 @@
 	)
 	(symbol
 		(lib_id "fract-components:D")
-		(at 170.18 38.1 90)
+		(at 181.61 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10228,7 +9894,7 @@
 		(fields_autoplaced yes)
 		(uuid "f66dcb08-37e8-4793-83dd-cf24a7d107b7")
 		(property "Reference" "D7"
-			(at 172.72 36.8299 90)
+			(at 184.15 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10237,7 +9903,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 172.72 39.3699 90)
+			(at 184.15 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10246,7 +9912,7 @@
 			)
 		)
 		(property "Footprint" "fract-footprints:D_SOD-123"
-			(at 170.18 38.1 90)
+			(at 181.61 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,7 +9921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 38.1 90)
+			(at 181.61 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +9930,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 170.18 38.1 0)
+			(at 181.61 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10352,6 +10018,70 @@
 			(project "fract-choc"
 				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fract-components:Cutout")
+		(at 71.12 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdf53e24-e6eb-4a74-9f85-975f86eab8a5")
+		(property "Reference" "CUTOUT2"
+			(at 77.47 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cutout-SW_SPDT"
+			(at 77.47 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fract-footprints:Cutout_SW_EG1218"
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "CUTOUT2")
 					(unit 1)
 				)
 			)

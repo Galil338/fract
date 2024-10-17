@@ -6,9 +6,8 @@
 	(descr "Mounting Hole 2.2mm, M2")
 	(tags "mounting hole 2.2mm m2")
 	(property "Reference" "REF**"
-		(at 0 3 0)
-		(layer "F.SilkS")
-		(hide yes)
+		(at 0 0 0)
+		(layer "F.Fab")
 		(uuid "1d518792-7ec3-4fd6-94e0-4de5fbf3044e")
 		(effects
 			(font

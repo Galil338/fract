@@ -1,0 +1,94 @@
+(footprint "Cutout_nice!nano"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Cutout for Pro Micro replacement development board with bluetooth and battery charging")
+	(tags "cutout, nRF52840, Pro Micro")
+	(property "Reference" "REF**"
+		(at 0 16.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8f3fe051-b904-48fe-a5e7-125eb0bf21f4")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Cutout_nice!nano"
+		(at 0 14.62 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1bd2436a-c1e3-4d9c-8f2a-60f61e25d5fb")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0ddb198-c34c-4413-ae67-022b911d55bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d99367c3-da40-4ea9-8bbf-6dcbefa22173")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e6ce5b8-5ad6-4afa-b884-3aac60ba87e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9 0)
+		(end 9 33)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e51c248b-6a36-4cc0-a90f-6c046ec3b0f3")
+	)
+	(pad "" np_thru_hole oval
+		(at -7.62 17.77)
+		(size 2.2 30.14)
+		(drill oval 2.2 30.14)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e0140b6a-a5fd-4e83-a032-7eb1bd4561dd")
+	)
+	(pad "" np_thru_hole oval
+		(at 7.62 17.77)
+		(size 2.2 30.14)
+		(drill oval 2.2 30.14)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "4138ec26-7bbb-49ed-85fa-df7d89e50d57")
+	)
+)

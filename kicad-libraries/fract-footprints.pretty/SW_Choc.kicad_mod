@@ -19,6 +19,7 @@
 	(property "Value" "SW_Choc"
 		(at 0 2.5 180)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "de0c33d8-d6f2-4627-908a-fad2987cc03b")
 		(effects
 			(font

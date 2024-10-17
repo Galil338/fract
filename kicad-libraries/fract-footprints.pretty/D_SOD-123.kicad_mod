@@ -6,7 +6,7 @@
 	(descr "Diode SOD-123")
 	(tags "diode, SOD-123")
 	(property "Reference" "REF**"
-		(at 0 -0.25 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "afc895d7-8eda-47cc-9033-9533bd648b41")
 		(effects
@@ -66,8 +66,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.5 -1)
-		(end -2.5 1)
+		(start -2.5 -0.75)
+		(end -2.5 0.75)
 		(stroke
 			(width 0.15)
 			(type solid)

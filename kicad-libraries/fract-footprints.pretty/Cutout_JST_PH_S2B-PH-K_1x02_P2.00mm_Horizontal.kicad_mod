@@ -1,13 +1,14 @@
-(footprint "JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+(footprint "Cutout_JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "JST PH connector")
+	(descr "Cutout for JST PH connector")
 	(tags "connector JST PH top entry")
 	(property "Reference" "REF**"
 		(at 0 3.65 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "1ebb419f-766d-4a4d-aa81-5536d36b7f00")
 		(effects
 			(font
@@ -16,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+	(property "Value" "Cutout_JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -69,36 +70,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.95 0)
-		(end 2.95 0)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "daeaf9bc-ea45-4e44-a3cb-0c920c5ddadd")
-	)
-	(fp_line
-		(start -2.95 1.6)
-		(end -2.95 0)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "27325b56-ebeb-4db2-a74e-139429688f59")
-	)
-	(fp_line
-		(start 2.95 0)
-		(end 2.95 1.6)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "92fe3dd7-656d-4bba-a877-9d4505bc15a4")
-	)
-	(fp_line
 		(start 2.95 1.6)
 		(end -2.95 1.6)
 		(stroke
@@ -130,57 +101,12 @@
 		(layer "F.Fab")
 		(uuid "198b0a60-6432-4ab8-8d8d-ab8d773b225a")
 	)
-	(fp_text user "+"
-		(at 1 8.25 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "58ca635b-f2b2-49d0-bde0-91d300d2aef2")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-				(bold yes)
-			)
-		)
-	)
-	(fp_text user "-"
-		(at -1 8.25 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "cfae3b76-1669-44be-ae36-888478aa652c")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-				(bold yes)
-			)
-		)
-	)
-	(pad "1" thru_hole circle
-		(at -1 1.35)
-		(size 1.35 1.35)
-		(drill 0.75)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "54625faf-1c50-4810-9263-fbd854e727d8")
-	)
-	(pad "2" thru_hole circle
-		(at 1 1.35)
-		(size 1.35 1.35)
-		(drill 0.75)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "37f90c7f-ca9e-41cf-9917-88cb5f0eda65")
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.wrl"
-		(offset
-			(xyz -1 -1.3 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
+	(pad "" np_thru_hole roundrect
+		(at 0 1.35)
+		(size 3.75 1.75)
+		(drill oval 3.75 1.75)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.5)
+		(uuid "37adf24e-85e2-4b60-9a10-7c269a012cdb")
 	)
 )
