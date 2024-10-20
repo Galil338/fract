@@ -4,7 +4,7 @@ Fract is a 40 key (4x10) ortholinear keyboard, powered by a bluetooth-enabled Pr
 
 It uses Choc v1 keyswitches with 18mm x 17mm spacing.
 
-The goal of this design was to use the manufacturer minimum order of five PCBs to build a single sturdy and pocketable keyboard.
+The goal of this design was to build a simple pocketable keyboard out of PCBs.
 
 ## Project structure
 
@@ -16,9 +16,9 @@ The goal of this design was to use the manufacturer minimum order of five PCBs t
 
 ## PCB
 
-Five copies of the same PCB are used to encase the dev board, battery, and components.
+Two copies of the main PCB are used to as the logical PCB and a bottom plate. The PCBs are screwed directly together.
 
-A dremel or other cutting tool is used to cut away sections of the inner layer of the PCB, in order to encase the dev board, battery connector, and battery between layers of PCB.
+Two top plate PCBs cover the dev board and battery.
 
 ## Keyboard firmware
 
@@ -31,15 +31,16 @@ For PCBs, keyswitches, and keycaps, get parts depending on your desired keyswitc
 
 Part | Purpose | Quantity | Notes
 ---- | ------- | -------- | ---------
-Main PCB  | circuit board | 5 | Send Gerber zip files to [JLCPCB](https://jlcpcb.com/).
+Main PCB  | logical PCB, bottom plate | 2 | Send Gerber zip files to [JLCPCB](https://jlcpcb.com/).
+Top plate PCB  | cover dev board and battery  | 2 | 
 Bluetooth Pro Micro | Microcontroller board | 1 | nice!nano or SuperMini nRF52840
 303450 LiPo Battery | Powers the wireless keyboard | Get one with JST PH 2.0 connector
 [S2B-PH-K-S](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626) | JST PH 2.0 battery connector | 1 |
 [EG1218 slide switch](https://www.digikey.com/en/products/detail/e-switch/eg1218/101726) | On/Off switch | 1 |
-[PTS636 SL50 tactile button](https://www.digikey.com/en/products/detail/c-k/PTS636-SL50-LFS/10071718) | Reset button | 1 |
+6mm x 6mm push button, ~6mm height | Reset button | 1 |
 1N4148 SOD-123 | Diodes for keyboard row-column matrix | 52 |
-Choc v1 Keyswitches |  | 52 |
-Choc v1 Keycaps |  | 52 | Use keycaps which fit 18mm x 17mm spacing
+Choc v1 Keyswitches |  | 34 |
+Choc v1 Keycaps |  | 34 | Use keycaps which fit 18mm x 17mm spacing
 M2 12mm screws | Screw all five PCBs together | 5 |
 M2 nuts | Hold the screws in place | 8 |
 2mm tall rubber bumpons | Raise board above desk surface and provide skid resitance | 6 |
