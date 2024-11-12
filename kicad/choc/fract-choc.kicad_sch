@@ -9908,7 +9908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fract-footprints:SW_EG1218"
+		(property "Footprint" "fract-footprints:SW_SS12D00"
 			(at 168.91 128.27 0)
 			(effects
 				(font
@@ -10121,7 +10121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fract-footprints:Cutout_SW_EG1218"
+		(property "Footprint" "fract-footprints:Cutout_SW_SS12D00"
 			(at 71.12 105.41 0)
 			(effects
 				(font

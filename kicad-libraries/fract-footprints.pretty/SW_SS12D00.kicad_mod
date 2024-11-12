@@ -1,9 +1,9 @@
-(footprint "SW_EG1218"
+(footprint "SW_SS12D00"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Slide Switch, E-Switch EG1218")
+	(descr "Slide Switch, SS12D00")
 	(tags "slide switch, on-on")
 	(property "Reference" "REF**"
 		(at 0 1.5 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SW_EG1218"
+	(property "Value" "SW_SS12D00"
 		(at 0 -1.5 0)
 		(layer "F.Fab")
 		(hide yes)

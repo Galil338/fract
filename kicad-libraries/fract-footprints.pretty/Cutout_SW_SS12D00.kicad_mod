@@ -1,9 +1,9 @@
-(footprint "Cutout_SW_EG1218"
+(footprint "Cutout_SW_SS12D00"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Cutout for Slide Switch, E-Switch EG1218")
+	(descr "Cutout for Slide Switch, SS12D00")
 	(tags "cutout, slide switch, on-on")
 	(property "Reference" "REF**"
 		(at 0 1.5 180)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Cutout_SW_EG1218"
+	(property "Value" "Cutout_SW_SS12D00"
 		(at 0 -1.5 0)
 		(layer "F.Fab")
 		(hide yes)

@@ -27,17 +27,15 @@ Two top plate PCBs cover the dev board and battery.
 
 ## Bill of materials
 
-For PCBs, keyswitches, and keycaps, get parts depending on your desired keyswitch type.
-
 Part | Purpose | Quantity | Notes
 ---- | ------- | -------- | ---------
-Main PCB  | logical PCB, bottom plate | 2 | Send Gerber zip files to [JLCPCB](https://jlcpcb.com/).
+Main PCB  | logical PCB, bottom plate | 2 | Send Gerber zip files to [JLCPCB](https://jlcpcb.com/)
 Top plate PCB  | cover dev board and battery  | 2 | 
 Bluetooth Pro Micro | Microcontroller board | 1 | nice!nano or SuperMini nRF52840
 303450 LiPo Battery | Powers the wireless keyboard | Get one with JST PH 2.0 connector
 [S2B-PH-K-S](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626) | JST PH 2.0 battery connector | 1 |
-[EG1218 slide switch](https://www.digikey.com/en/products/detail/e-switch/eg1218/101726) | On/Off switch | 1 |
-6mm x 6mm push button, ~6mm height | Reset button | 1 |
+SS12D00 5mm handle length | On/Off switch | 1 |
+6mm x 6mm push button, 8mm total height | Reset button | 1 |
 1N4148 SOD-123 | Diodes for keyboard row-column matrix | 52 |
 Choc v1 Keyswitches |  | 34 |
 Choc v1 Keycaps |  | 34 | Use keycaps which fit 18mm x 17mm spacing
@@ -65,9 +63,7 @@ These are the manufacturing settings I used when ordering from JLCPCB:
 * **Confirm Production File**: No
 * **Flying Probe Test**: Fully Test
 * **Castellated Holes**: No
-* **Remove Order Number**: Specify a location
-
-**IMPORTANT:** PCB has ["JLCJLCJLCJLC" silkscreen text](https://support.jlcpcb.com/article/28-how-to-remove-order-number-from-your-pcb) underneath the Pro Micro footprint. If you want to remove the order number from the boards or you want to print the PCBs with another manufacturer, then I recommend removing this silkscreen text from the `.kicad_pcb` file, and then re-run the Fract Board Producer plugin to create the updated Gerber files.
+* **Mark on PCD**: Remove Mark
 
 ## Build tips
 
