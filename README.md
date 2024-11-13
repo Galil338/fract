@@ -14,11 +14,11 @@ The goal of this design was to build a simple pocketable keyboard out of PCBs.
 * [`kicad-libraries`](kicad-libraries): KiCad components and footprints
 * [`images`](images): Images for project documentation
 
-## PCB
+## PCBs
 
-Two copies of the main PCB are used to as the logical PCB and a bottom plate. The PCBs are screwed directly together.
+**Each build uses two copies of the main PCB.** This PCB acts as both the logical PCB, and when flipped the long way, it acts as a bottom plate to be attached the logical PCB.
 
-Two top plate PCBs cover the dev board and battery.
+Two copies of the top plate PCB cover the dev board and battery. Flip this PCB as well. It has a cutout which fits the reset button on the left, and the power switch on the right.
 
 ## Keyboard firmware
 
@@ -68,10 +68,14 @@ These are the manufacturing settings I used when ordering from JLCPCB:
 ## Build tips
 
 * Before starting, check if the PCBs are warped, and bend them to be perfectly flat before soldering.
-* Solder the diodes first. Make sure they are oriented correctly! Once the keyswitches are soldered in, you won't be able to get to them anymore.
+* Solder the diodes first. Make sure they are oriented correctly, cathode on the side with the line! Once the keyswitches are soldered in, you won't be able to get to them anymore.
 * Make sure the dev board is placed **components side up**. The pinout labels printed on the PCB should align with those printed on the dev board.
 * Use tape to hold the battery connector, reset button, and power switch in place. Solder just one leg of each of these components, make sure they are aligned correctly, and then solder the other legs.
 * Don't plug in the battery until you're done soldering everything! Use tape to secure the battery and its wires.
+
+## KiCad project notes
+
+The top plate was generated with the [Horizon Board Producer KiCad plugin](https://github.com/skarrmann/horizon#kicad-project-notes).
 
 ## Revision history
 
