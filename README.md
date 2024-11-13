@@ -1,6 +1,6 @@
 # Fract Keyboard
 
-Fract is a 40 key (4x10) ortholinear keyboard, powered by a bluetooth-enabled Pro Micro compatible dev board.
+Fract is a 34 key ortholinear keyboard, powered by a bluetooth-enabled Pro Micro compatible dev board.
 
 It uses Choc v1 keyswitches with 18mm x 17mm spacing.
 
@@ -32,17 +32,17 @@ Part | Purpose | Quantity | Notes
 Main PCB  | logical PCB, bottom plate | 2 | Send Gerber zip files to [JLCPCB](https://jlcpcb.com/)
 Top plate PCB  | cover dev board and battery  | 2 | 
 Bluetooth Pro Micro | Microcontroller board | 1 | nice!nano or SuperMini nRF52840
-303450 LiPo Battery | Powers the wireless keyboard | Get one with JST PH 2.0 connector
-[S2B-PH-K-S](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626) | JST PH 2.0 battery connector | 1 |
-SS12D00 5mm handle length | On/Off switch | 1 |
+502040 LiPo Battery | Powers the wireless keyboard | Get one with JST PH 2.0 connector
+S2B-PH-K-S connector | JST PH 2.0 battery connector | 1 |
+SS12D00, 5mm handle length | On/Off switch | 1 |
 6mm x 6mm push button, 8mm total height | Reset button | 1 |
-1N4148 SOD-123 | Diodes for keyboard row-column matrix | 52 |
+1N4148 SOD-123 | Diodes for keyboard row-column matrix | 34 |
 Choc v1 Keyswitches |  | 34 |
 Choc v1 Keycaps |  | 34 | Use keycaps which fit 18mm x 17mm spacing
-M2 12mm screws | Screw all five PCBs together | 5 |
-M2 nuts | Hold the screws in place | 8 |
-2mm tall rubber bumpons | Raise board above desk surface and provide skid resitance | 6 |
-[Peel-a-way Sockets and Pins](https://ringerkeys.com/collections/modders-tools/products/peel-a-way-sockets) | socket dev board to PCB | 2 strips of 12 pins/sockets | May use other low profile sockets which give less than ~4.8 mm height.
+M2 5mm screws | Screws PCBs together | 19 |
+M2 6mm spacers | Spacers between logical PCB and top plates | 8 |
+M2 nuts | Holds the top screws between the bottom plate and logical PCB | 3 |
+[Peel-a-way Sockets and Pins](https://ringerkeys.com/collections/modders-tools/products/peel-a-way-sockets) | socket dev board to PCB | 2 strips of 12 pins/sockets | May use other low profile sockets which give less than 6 mm total height.
 
 ## PCB manufacturing settings
 
@@ -63,12 +63,17 @@ These are the manufacturing settings I used when ordering from JLCPCB:
 * **Confirm Production File**: No
 * **Flying Probe Test**: Fully Test
 * **Castellated Holes**: No
-* **Mark on PCD**: Remove Mark
+* **Mark on PCB**: Remove Mark
 
 ## Build tips
 
-**TODO**
+* Before starting, check if the PCBs are warped, and bend them to be perfectly flat before soldering.
+* Solder the diodes first. Make sure they are oriented correctly! Once the keyswitches are soldered in, you won't be able to get to them anymore.
+* Make sure the dev board is placed **components side up**. The pinout labels printed on the PCB should align with those printed on the dev board.
+* Use tape to hold the battery connector, reset button, and power switch in place. Solder just one leg of each of these components, make sure they are aligned correctly, and then solder the other legs.
+* Don't plug in the battery until you're done soldering everything! Use tape to secure the battery and its wires.
 
 ## Revision history
 
-**TODO**
+* Fract 1.0 (2024-10-16)
+    * Initial Choc switch PCB design
